@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-frame {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+
+  animation: slide 8s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+
+  30% {
+    margin-left: 0;
+  }
+
+  33% {
+    margin-left: -100%;
+  }
+
+  63% {
+    margin-left: -100%;
+  }
+
+  66% {
+    margin-left: -200%;
+  }
+
+  100% {
+    margin-left: -200%;
+  }
+}
+
+p {
+  margin-bottom: auto;
+}
