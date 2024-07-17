@@ -1,2 +1,2 @@
 
-export const Logo = "src/base/logo.jpeg."
+export const Logo = "src/base/logo.jpeg"

@@ -2,7 +2,8 @@ import { Link as RouterLink } from "react-router-dom";
 
 import { Box, Container, Heading, Image, Link, Stack, Text } from "@chakra-ui/react";
 
-import { Logo } from "@/base";
+import Logo from "@/assets/logo.jpeg"
+
 
 
 export const Header: React.FC = () => {

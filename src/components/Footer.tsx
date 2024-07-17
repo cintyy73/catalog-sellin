@@ -7,6 +7,7 @@ import { Link as RouterLink,
 
 import { Box, Container, Image, Link , Stack } from '@chakra-ui/react';
 
+import Logo from "@/assets/logo.jpeg"
 export const Footer: React.FC = () => {
 	return (
 		<Box bg="primary.500">
@@ -19,7 +20,7 @@ export const Footer: React.FC = () => {
 				alignItems="center"
 			>
 				  <Link as={RouterLink} to={"/"} py={6}>
-          <Image src="src/base/logo.jpeg " w={200}/>
+          <Image src={Logo} w={200}/>
         </Link>
 				<Stack
 					w={{ base: '100%', md: '50%' }}
