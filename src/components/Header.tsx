@@ -2,6 +2,8 @@ import { Link as RouterLink } from "react-router-dom";
 
 import { Box, Container, Heading, Image, Link, Stack, Text } from "@chakra-ui/react";
 
+import { Logo } from "@/base";
+
 
 export const Header: React.FC = () => {
   return (
@@ -15,7 +17,7 @@ export const Header: React.FC = () => {
         textAlign={{ base: "center", md: "left" }}
       >
         <Link as={RouterLink} to={"/"} py={6}>
-          <Image src="src/base/logo.jpeg " w={200}/>
+          <Image src={Logo} w={200}/>
         </Link>
 <Stack color="white">
 <Heading>Sellin</Heading>
