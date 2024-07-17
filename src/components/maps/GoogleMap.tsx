@@ -28,7 +28,7 @@ const containerStyle = {
   borderRadius: "12px",
 };
 
-const center = { lat: -34.5917803, lng: -58.43716370000001 };
+const center = { lat: -34.9011, lng: -56.1645 };
 
 export const GoogleMap = memo(function GoogleMap({
   markers,
