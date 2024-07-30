@@ -5,7 +5,9 @@ import { Link as RouterLink } from 'react-router-dom';
 
 import { Box, Container, Image, Link , Stack } from '@chakra-ui/react';
 
-import Logo from "@/assets/logo.jpeg"
+import { Logo } from '@/base';
+
+
 export const Footer: React.FC = () => {
 	return (
 		<Box bg="primary.500">
@@ -26,14 +28,14 @@ export const Footer: React.FC = () => {
 						<Stack flexDirection="row" gap={6}>
 							<a
 								target="_blank"
-								href=""
+								href="https://www.facebook.com/sellinnet/"
 								rel="noreferrer"
 							>
 								<FaFacebookF size="30" />
 							</a>
 							<a
 								target="_blank"
-								href=""
+								href="https://www.facebook.com/sellinnet/"
 								rel="noreferrer"
 							>
 								<FaLinkedinIn size="30" />

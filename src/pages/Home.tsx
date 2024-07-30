@@ -11,7 +11,7 @@ import { Empty } from "@/components/Empty";
 import { Filters } from "@/components/Filters";
 import { GoogleMap } from "@/components/maps/GoogleMap";
 import { Pagination } from "@/components/Pagination";
-// import { Slider } from "@/components/slider/Slider";
+import { Slider } from "@/components/slider/Slider";
 import { fetchProducts } from "@/services/product.service";
 import { createArray } from "@/utils/globals";
 
@@ -51,7 +51,7 @@ function Home() {
       justifyContent="space-between"
       spacing={6}
     >
-      {/* <Slider /> */}
+      <Slider />
 
       <GoogleMap markers={entities} styles={mapSize} />
 

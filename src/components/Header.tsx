@@ -2,7 +2,8 @@ import { Link as RouterLink } from "react-router-dom";
 
 import { Box, Container, Image, Link } from "@chakra-ui/react";
 
-import Logo from "@/assets/logo.jpeg"
+import { Logo } from "@/base";
+
 
 
 
