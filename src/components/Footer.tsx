@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import { RiTwitterXLine } from 'react-icons/ri';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { Link as RouterLink } from 'react-router-dom';
 
 import { Box, Container, Image, Link , Stack } from '@chakra-ui/react';
@@ -23,8 +22,6 @@ export const Footer: React.FC = () => {
 				  <Link as={RouterLink} to={"/"} py={6}>
           <Image src={Logo} w={200}/>
         </Link>
-				
-						
 						<Stack flexDirection="row" gap={6}>
 							<a
 								target="_blank"
@@ -33,19 +30,20 @@ export const Footer: React.FC = () => {
 							>
 								<FaFacebookF size="30" />
 							</a>
-							<a
+							{/* <a
 								target="_blank"
 								href="https://www.facebook.com/sellinnet/"
 								rel="noreferrer"
 							>
 								<FaLinkedinIn size="30" />
-							</a>
+							</a> */}
 							<a
 								target="_blank"
-								href=""
+								href="https://www.instagram.com/sellin.uruguay/"
 								rel="noreferrer"
 							>
-								<RiTwitterXLine size="30" />
+								<FaInstagram
+								size="30" />
 							</a>
 						</Stack>
 			</Container>

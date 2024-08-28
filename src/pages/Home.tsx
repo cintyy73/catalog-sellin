@@ -51,9 +51,9 @@ function Home() {
       justifyContent="space-between"
       spacing={6}
     >
+      <GoogleMap markers={entities} styles={mapSize} />
       <Slider />
 
-      <GoogleMap markers={entities} styles={mapSize} />
 
       <Stack minH="50vh">
         <Box

@@ -19,8 +19,8 @@ export const fetchProducts = async (meta = {} as Meta) => {
         "filter[withDescription]": description,
         "filter[inEntityType]": category === "0" ? "" : category,
         "filter[product_types]": product_types,
-        // "filter[networks]": 39,
-        include: "networks",
+        "filter[networks]": 39,
+        // include: "networks",
       },
     })
     .then(({ data }) => data);
